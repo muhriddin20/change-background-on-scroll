@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 600vh;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  transition: all 0.5s;
+}
+
+.content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wrapper .content:nth-child(1) {
+  z-index: 5;
+}
+
+.wrapper .content:nth-child(2) {
+  z-index: 4;
+}
+
+.wrapper .content:nth-child(3) {
+  z-index: 3;
+}
+
+.wrapper .content:nth-child(4) {
+  z-index: 2;
+}
+
+.wrapper .content:nth-child(5) {
+  z-index: 1;
+}
